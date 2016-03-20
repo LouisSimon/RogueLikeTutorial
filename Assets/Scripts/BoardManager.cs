@@ -68,7 +68,7 @@ public class BoardManager : MonoBehaviour
 
     public void SetupScene(int level)
     {
-        int enemyAmount = (int)Mathf.Log(level, 2f);
+        int enemyAmount = (int) Mathf.Log(level, 2f);
         Count enemyCount = new Count(enemyAmount, enemyAmount);
         BoardSetup();
         InitialiseList();
